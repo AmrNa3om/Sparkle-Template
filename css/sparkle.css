@@ -306,6 +306,7 @@ body{
     display: grid;
     justify-content: center;
     gap: 20px;
+    cursor: pointer;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
@@ -325,6 +326,10 @@ body{
     animation-duration: 0.4s;
 }
 
+.services .container .cards .card:hover,
+.services .container .cards-type2 .card:hover{
+    box-shadow: 0 0 15px 0 rgba(27, 27, 27, 0.301);
+}
 .services .container .cards .card .text h3{
     font-size: 16px;
     color: var(--thirdColor);
